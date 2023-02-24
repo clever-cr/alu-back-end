@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" ToDo list"""
+""" ToDo list """
+
 import requests
 import sys
 
