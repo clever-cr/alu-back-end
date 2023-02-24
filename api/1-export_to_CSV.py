@@ -19,7 +19,7 @@ if __name__ == "__main__":
     todo_data = requests.get(todo_url).json()
 
     csv_data = [["{}".format(i["userId"]),
-                 employee["username"], 
+                 employee["username"],
                  "{}".format(i["completed"]), i["title"]] for i in todo_data]
 
     with open("{}.csv".format(employee["id"]), 'w', encoding='utf-8') as f:
