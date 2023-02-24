@@ -25,4 +25,4 @@ if __name__ == "__main__":
 
     for task in todo_data:
         if task['completed']:
-            print("\n {}".format(task['title']))
+            print("\t {}".format(task['title']))
